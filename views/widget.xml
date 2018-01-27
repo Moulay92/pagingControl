@@ -1,0 +1,6 @@
+<Alloy>
+	<View class="container HWS" >
+		<ScrollView id="pagingcontrol" onScroll="onScroll"  onDragend="onDragend" onScrollEnd="onDragend" />
+		<View id="pageIndicator" class="HWS" />
+	</View>
+</Alloy>

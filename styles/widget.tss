@@ -1,0 +1,24 @@
+
+".HWS":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+
+".container" : {
+  layout : 'vertical'
+}
+
+"#pagingcontrol":{
+	height : Titanium.UI.SIZE,
+	width : Titanium.UI.FILL,
+	layout : 'horizontal',
+	scrollType : 'horizontal',
+	scrollingEnabled : true,
+	//left : 10, right : 10
+}
+
+"#pageIndicator":{
+	top : 9, 
+	layout : 'horizontal'
+}
