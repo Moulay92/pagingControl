@@ -36,21 +36,21 @@ XML:
 JS: 
 
 ```js
-    var views = [];
-    for (var i=0; i < 10; i++) {
-       var view = Ti.UI.createView({
-         height : 500,
-         width : 250,
-         backgroundColor : (i%2 == 0) ? 'black' : 'red'  
-       });
-       views.push(view);
-    };
+var views = [];
+for (var i=0; i < 10; i++) {
+   var view = Ti.UI.createView({
+     height : 500,
+     width : 250,
+     backgroundColor : (i%2 == 0) ? 'black' : 'red'  
+   });
+   views.push(view);
+};
 
-    $.pagingcontrol.setViews(views,{
-      widthOfView : 250, 
-      margin : 20,
-      showIndicator : true // false by default
-    });
+$.pagingcontrol.setViews(views,{
+  widthOfView : 250, 
+  margin : 20,
+  showIndicator : true // false by default
+});
 ```
 
 
