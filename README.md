@@ -16,7 +16,7 @@
 In config.json add : 
 ```javascript
 "dependencies": {
-        "com.developatic.multiPagingControl": "1.0"
+        "com.developatic.pagingControl": "1.0"
 }
 ```
 
