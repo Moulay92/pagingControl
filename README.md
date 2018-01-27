@@ -58,7 +58,8 @@ JS:
 
 |Name|Params|Description|
 |---|---|---|
-|`setViews`|`(views : Array<Titanium.UI.View>, params : { widthOfView, margin, showIndicator : bool })`|Sets the value of the views property, and sets the width of views and margin between them.|
+|`setViews`|`(views : Array<Titanium.UI.View>, params : { widthOfView : number, margin : number, showIndicator : bool })`|Sets the value of the views property, and sets the width of views and margin between them.|
+|`moveToPage`|`index : number`|Sets the value of the currentPage property.|
 |`moveNext`|`null`|Sets the current page to the next consecutive page in views.|
 |`movePrevious`|`null`|Sets the current page to the previous consecutive page in views.|
 
