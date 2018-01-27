@@ -1,5 +1,6 @@
 # com.developatic.pagingControl
 
+This is a widget for the Alloy MVC framework of Appcelerator's Titanium platform.
 
 ## Features
 
