@@ -11,7 +11,7 @@
 
 
 ## Quick Start
-* Unzip the folder to your project under `com.developatic.multiPagingControl`.
+* Unzip the folder to your project under `com.developatic.pagingControl`.
 
 In config.json add : 
 ```javascript
